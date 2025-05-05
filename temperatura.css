@@ -1,11 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Combo&family=DynaPuff:wght@400..700&family=Fredoka:wght@300..700&family=Genos:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Knewave&family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+DE+Grund:wght@100..400&family=Shadows+Into+Light&family=Slackey&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    margin: 20%;
+    background-image: url("./assets/FondoTemperatura.jpg");
+    background-repeat: repeat;
+    margin: 15%;
 }
 #contenedor-temperatura{
+    background-color: white;
+    padding: 8%;
     display: flex;
     flex-direction: column;
+}
+h1{
+    text-align: center;
+    font-family: "DynaPuff", system-ui;
+    font-size: 45px;
+}
+input{
+    align-self: center;
+    margin: 3% 25% 1%;
+    width: 30%;
+    padding: 1%;
+    font-family: "Combo", system-ui;
+    font-size: 17px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+button{
+    align-self: center;
+    margin: 1% 25%;
+    width: 50%;
+    padding: 1%;
+    font-family: "Combo", system-ui;
+    font-size: 20px;
+    border: 1px solid rgb(0, 140, 255);
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+}
+p{
+    align-self: center;
+    font-family: "Combo", system-ui;
 }

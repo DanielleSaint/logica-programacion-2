@@ -9,8 +9,8 @@ convertidor.addEventListener("click", function () {
     const convertidorK = (celsius + 273.15).toFixed(2);
 
     const respuesta = document.getElementById("respuesta");
-    respuesta.textContent = `°Celsius:${celsius}/ °Fahrenheit: ${convertidorF} / °Kelvin: ${convertidorK}`;
-    console.log(`°Celsius:${celsius} / °Fahrenheit: ${convertidorF} / °Kelvin: ${convertidorK}`);
+    respuesta.textContent = `°Celsius: ${celsius} / °Fahrenheit: ${convertidorF} / °Kelvin: ${convertidorK}`;
+    console.log(`°Celsius: ${celsius} / °Fahrenheit: ${convertidorF} / °Kelvin: ${convertidorK}`);
     
     const inputCelsius = document.querySelector("input");
     inputCelsius.value = "";
